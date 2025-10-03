@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polizei-Portal – Wissen Tsunami</title>
+<style>
+body { margin:0; font-family: Arial, sans-serif; color:#333; background:#f0f2f5; line-height:1.6;}
+header { background-color:#003366; color:white; padding:1rem; display:flex; justify-content:space-between; flex-wrap:wrap; position:relative; z-index:10; }
+header h1 { margin:0; font-size:1.8rem; }
+nav a { color:white; margin-left:1rem; text-decoration:none; font-weight:bold; }
+nav a:hover { color:#66ccff; }
+main { padding:2rem; max-width:1000px; margin:auto; }
+section { display:none; padding:2rem; margin:2rem 0; background:white; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);}
+section.active { display:block; }
+h2 { color:#003366; margin-top:0; }
+ul { list-style:none; padding-left:0; }
+li { margin:0.5rem 0; position:relative; padding:5px; border-radius:5px; transition: background 0.3s; cursor:pointer; display:flex; align-items:center; }
+li:hover { background:#e6f0ff; }
+.infobox { display:none; margin-top:1rem; padding:1rem; border:1px solid #003366; border-radius:8px; background:#e6f0ff; }
+.rank-icon { width:30px; margin-right:10px; opacity:0.5; transition: opacity 0.3s, transform 0.3s; }
+li:hover .rank-icon { opacity:1; transform:scale(1.2); }
+.video-container { position: relative; padding-bottom: 56.25%; height:0; overflow: hidden; max-width: 100%; margin:2rem 0; border-radius:8px; }
+.video-container iframe { position: absolute; top:0; left:0; width:100%; height:100%; border:none; border-radius:8px; }
+footer { text-align:center; background:#003366; color:white; padding:1rem; margin-top:2rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Polizei-Portal – Der Wissens-Tsunami</h1>
+  <nav>
+    <a href="#" onclick="zeigeSeite('home')">Home</a>
+    <a href="#" onclick="zeigeSeite('geschichte')">Geschichte</a>
+    <a href="#" onclick="zeigeSeite('laufbahnen')">Laufbahnen</a>
+    <a href="#" onclick="zeigeSeite('raenge')">Ränge</a>
+    <a href="#" onclick="zeigeSeite('fuehrung')">Führungsebenen</a>
+    <a href="#" onclick="zeigeSeite('ausbildung')">Ausbildung</a>
+    <a href="#" onclick="zeigeSeite('spezialeinheiten')">Spezialeinheiten</a>
+    <a href="#" onclick="zeigeSeite('technik')">Technik & Prävention</a>
+    <a href="#" onclick="zeigeSeite('video')">Video</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="home" class="active">
+<h2>Überblick</h2>
+<p>Die Polizei in Deutschland ist eine komplexe Organisation, die für öffentliche Sicherheit, Rechtsstaatlichkeit und Prävention von Kriminalität verantwortlich ist. Sie ist auf Landes- und Bundesebene organisiert. Ihre Aufgaben sind extrem vielfältig: Streifendienst, Verkehrsüberwachung, Ermittlungen bei Diebstahl, Betrug, Cybercrime, Terrorabwehr, Spezialeinsätze, Prävention und Aufklärung.</p>
+<p>Die Polizei arbeitet eng mit anderen Behörden zusammen, sowohl national als auch international, um Kriminalität effektiv zu bekämpfen. Dazu gehören Europol, Interpol, Zoll, Feuerwehr, Rettungsdienste und private Sicherheitsunternehmen. Die Ausbildung ist umfangreich, umfasst Recht, Technik, Kriminalistik, Psychologie und physische Fitness. Karrierepfade sind klar strukturiert von Einsteiger-Rängen bis zu Präsidenten und Bundespolizeichefs.</p>
+<p>Im Alltag stehen Polizistinnen und Polizisten vor extremen Herausforderungen: Einsatz bei Unfällen, Kontrolle öffentlicher Veranstaltungen, Observationen, Festnahmen, Verhöre, Cybercrime-Untersuchungen, Schutz gefährdeter Personen, Anti-Terror-Einsätze und internationale Missionen. Die Organisation ist stark hierarchisch, aber modern und digitalisiert, mit Einsatzleitsystemen, Drohnen, Hubschraubern, Bodycams, Fahrzeugtechnik und Kommunikationssystemen.</p>
+<p>Die öffentliche Wahrnehmung der Polizei schwankt, abhängig von Medien, Einsätzen, politischen Entscheidungen und Präventionsprogrammen. Gleichzeitig ist die Polizei Teil der Gesellschaft: Informationsveranstaltungen, Jugendprojekte, Sicherheitstrainings, Verkehrssicherheitskampagnen und Community-Engagement.</p>
+</section>
+
+<section id="geschichte">
+<h2>Geschichte der Polizei</h2>
+<p>Die Wurzeln der Polizei in Deutschland gehen bis ins 18. Jahrhundert zurück. Frühe Formen waren städtische Wachen, Nachtwächter und Militärpolizei. Im 19. Jahrhundert wurden die Polizeibehörden modernisiert, standardisiert und staatlich organisiert. Nach dem Zweiten Weltkrieg wurde die Polizei in West- und Ostdeutschland unterschiedlich strukturiert, beide Seiten etablierten Ausbildungssysteme, Spezialeinheiten und Leitungsebenen.</p>
+<p>Seit der Wiedervereinigung 1990 wurde die Polizei bundesweit harmonisiert, mit klaren Laufbahnen, zentraler Koordination und moderner Ausbildung. Internationale Kooperationen, Anti-Terror-Maßnahmen, Cybercrime-Einheiten und Community-Policing wurden verstärkt. Heute zählt die Polizei zu den modernsten Sicherheitsorganisationen der Welt.</p>
+<p>Historische Ereignisse wie die Bekämpfung von RAF-Terrorismus, Großereignisse, Fußball-Einsätze, internationale Einsätze in Friedensmissionen und humanitäre Einsätze prägen die Polizei bis heute. Die Lehren aus der Geschichte fließen in Ausbildung, Taktik und Einsatzplanung ein.</p>
+</section>
+
+<section id="laufbahnen">
+<h2>Laufbahnen</h2>
+<ul>
+<li onclick="toggleInfo(this)"><img src="https://img.icons8.com/ios-filled/24/003366/badge.png" class="rank-icon">Mittlerer Dienst
+<div class="infobox">
+<strong>Beschreibung:</strong> Einstiegsebene, Ausbildung 2-3 Jahre, Schwerpunkte: Streifendienst, Verkehrsüberwachung, erste Ermittlungen.<br>
+<strong>Aufgaben:</strong> Streifen, Verkehrskontrolle, Bürgerkontakte, erste Ermittlungen.<br>
+<strong>Einsatzgebiete:</strong> Städte, Landkreise, Polizeireviere.<br>
+<strong>Karrierepfad:</strong> PMA → PM → POM → PHM.
+</div></li>
+<li onclick="toggleInfo(this)"><img src="https://img.icons8.com/ios-filled/24/003366/badge.png" class="rank-icon">Gehobener Dienst
+<div class="infobox">
+<strong>Beschreibung:</strong> Fachhochschulabschluss, 3 Jahre Studium, Führung kleiner Teams, komplexe Ermittlungen.<br>
+<strong>Aufgaben:</strong> Leitung Streife, Ermittlungen, Koordination von Spezialeinsätzen.<br>
+<strong>Einsatzgebiete:</strong> Kriminalpolizei, SEK-Unterstützung, regionale Leitstellen.<br>
+<strong>Karrierepfad:</strong> POK → PHK → EPHK.
+</div></li>
+<li onclick="toggleInfo(this)"><img src="https://img.icons8.com/ios-filled/24/003366/badge.png" class="rank-icon">Höherer Dienst
+<div class="infobox">
+<strong>Beschreibung:</strong> Hochschulstudium, Referendariat, Verwaltung und strategische Führung.<br>
+<strong>Aufgaben:</strong> Leitung von Abteilungen, Budgetkontrolle, strategische Einsatzplanung.<br>
+<strong>Einsatzgebiete:</strong> Landespolizeidirektion, Bundespolizei.<br>
+<strong>Karrierepfad:</strong> PD → LPD → Vizepräsident → Präsident.
+</div></li>
+</ul>
+</section>
+
+<section id="raenge">
+<h2>Ränge</h2>
+<ul>
+<li onclick="toggleInfo(this)"><img src="https://img.icons8.com/ios-filled/24/003366/badge.png" class="rank-icon">Polizeimeisteranwärter
+<div class="infobox">
+Aufgaben: Streifendienst, erste Ermittlungen, Verkehrskontrolle.<br>
+Einsatzgebiet: Lokale Polizeireviere.<br>
+Karrierepfad: PMA → PM → POM.
+</div></li>
+<li onclick="toggleInfo(this)"><img src="https://img.icons8.com/ios-filled/24/003366/badge.png" class="rank-icon">Polizeimeister
+<div class="infobox">
+Aufgaben: Eigenständiger Streifendienst, Unterstützung Vorgesetzter.<br>
+Einsatzgebiet: Stadt und Landkreis.<br>
+Karrierepfad: POM → PHM → EPHM.
+</div></li>
+<li onclick="toggleInfo(this)"><img src="https://img.icons8.com/ios-filled/24/003366/badge.png" class="rank-icon">Polizeikommissar
+<div class="infobox">
+Aufgaben: Leitung kleiner Teams, Ermittlungen komplexer Fälle.<br>
+Einsatzgebiet: Kriminalpolizei, regionale Leitstellen.<br>
+Karrierepfad: POK → PHK → EPHK.
+</div></li>
+<li onclick="toggleInfo(this)"><img src="https://img.icons8.com/ios-filled/24/003366/badge.png" class="rank-icon">Polizeidirektor
+<div class="infobox">
+Aufgaben: Leitung größerer Abteilungen, Budgetkontrolle, strategische Planung.<br>
+Einsatzgebiet: Landespolizeidirektion, Bundespolizei.<br>
+Karrierepfad: LPD → Vizepräsident → Präsident.
+</div></li>
+<li onclick="toggleInfo(this)"><img src="https://img.icons8.com/ios-filled/24/003366/badge.png" class="rank-icon">Vizepräsident
+<div class="infobox">
+Aufgaben: Unterstützung des Präsidenten, strategische Planung, Personalkoordination.<br>
+Einsatzgebiet: Landespolizeidirektion oder Bundespolizei.<br>
+Karrierepfad: LPD → Vizepräsident → Präsident.
+</div></li>
+<li onclick="toggleInfo(this)"><img src="https://img.icons8.com/ios-filled/24/003366/badge.png" class="rank-icon">Präsident
+<div class="infobox">
+Aufgaben: Gesamtleitung, Einsatzkoordination, Budgetüberwachung, internationale Kooperationen.<br>
+Einsatzgebiet: Bundespolizei oder Landespolizei.<br>
+Karrierepfad: Vizepräsident → Präsident.
+</div></li>
+</ul>
+</section>
+
+<section id="fuehrung">
+<h2>Führungsebenen</h2>
+<p>Die Führungsebene sorgt für strategische Entscheidungen, Einsatzplanung, internationale Zusammenarbeit, Prävention und moderne Verwaltung. Sie koordiniert alle Spezialeinheiten, Ausbildungseinrichtungen und internationale Missionen. Präsidenten, Vizepräsidenten, Polizeidirektoren und Leitende Beamte tragen die Verantwortung für Personal, Budget, Sicherheit und Modernisierung.</p>
+<p>Führungskräfte müssen neben Erfahrung auch psychologische, juristische und taktische Kenntnisse besitzen. Regelmäßige Weiterbildungen und internationale Trainings sichern die Qualität und Professionalität der Polizei.</p>
+</section>
+
+<section id="ausbildung">
+<h2>Ausbildung & Studium</h2>
+<p>Mittlerer Dienst: 2-3 Jahre Ausbildung, Streifendienst, Verkehr, Bürgerkontakte, erste Ermittlungen.</p>
+<p>Gehobener Dienst: 3 Jahre Fachhochschule Polizei, Führung kleiner Teams, Spezialeinsätze, Ermittlungen.</p>
+<p>Höherer Dienst: Hochschulstudium + Referendariat, strategische Planung, Verwaltung, Führung großer Abteilungen.</p>
+<p>Spezialisierungen: Cybercrime, Terrorabwehr, Kriminaltechnik, Ballistik, Verhandlungstechniken, Prävention, Öffentlichkeitsarbeit, Einsatzleitung.</p>
+</section>
+
+<section id="spezialeinheiten">
+<h2>Spezialeinheiten</h2>
+<p>SEK (Spezialeinsatzkommando): Hochriskoeinsätze, Geiselnahmen, Anti-Terror.</p>
+<p>GSG9: Internationale Terrorabwehr, VIP-Schutz, strategische Operationen.</p>
+<p>Kriminalpolizei: Ermittlungen bei Mord, Betrug, Drogen, Cybercrime.</p>
+<p>Cybercrime: Bekämpfung von Online-Kriminalität, Hacking, Datenklau.</p>
+<p>Polizeihubschrauber: Luftüberwachung, Suche, schnelle Eingreiftruppen.</p>
+<p>Präventionsteams: Aufklärung, Schulprojekte, Verkehrssicherheitskampagnen.</p>
+</section>
+
+<section id="technik">
+<h2>Technik & Prävention</h2>
+<p>Moderne Polizei setzt auf digitale Leitsysteme, Bodycams, Drohnen, Hubschrauber, GPS-Tracking, Fahrzeuge mit Spezialtechnik, Ballistik-Labore, Cybercrime-Tools, Kommunikationssysteme, Datenbanken und Analyse-Software.</p>
+<p>Prävention ist ebenso wichtig: Verkehrssicherheit, Jugendprogramme, Anti-Gewalt-Kampagnen, Community-Policing, Aufklärungskampagnen, Kooperation mit Schulen, Vereinen und Organisationen.</p>
+</section>
+
+<section id="video">
+<h2>Video</h2>
+<p>Hier kannst du dir ein umfassendes Video über Polizei, Aufgaben, Organisation und Karriere ansehen:</p>
+<div class="video-container">
+<iframe src="https://www.youtube.com/embed/cSF4Put4hX4" allowfullscreen></iframe>
+</div>
+</section>
+
+</main>
+
+<footer>
+<p>&copy; 2025 Polizei-Portal | Alle Informationen basieren auf offiziellen Quellen</p>
+</footer>
+
+<script>
+function zeigeSeite(id){
+  document.querySelectorAll("section").forEach(sec=>sec.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+}
+function toggleInfo(li){
+  const box = li.querySelector('.infobox');
+  box.style.display = box.style.display==='block' ? 'none' : 'block';
+}
+</script>
